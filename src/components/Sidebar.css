@@ -1,0 +1,209 @@
+
+.sidebar{
+    padding-top: 2px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#topbar {
+    height: 60px;
+    background: #F3F3F3;
+}
+
+/* sidebar is expanded by default */
+#sidebar-wrapper {
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+    min-height: 100%;
+    overflow-y: hidden;
+    overflow-x: visible;
+    background-color: black;
+    transition:.5s;
+}
+
+/* hamburger icon */
+#sidebar-toggle {
+    float: left;
+    padding: 18px 20px 0 20px;
+}
+
+/* main content wrapper */
+#content-wrapper {
+    position: absolute;
+    width: 100%;
+    padding-left: 250px;
+    transition:.5s;
+    font-size: 1.1em;
+}
+
+/* change the sidebar's width to zero to collapse the sidebar */
+#wrapper.sidebar-hidden #sidebar-wrapper {
+    width: 0;
+}
+
+/* remove padding from main content so it collapses left with the sidebar */
+#wrapper.sidebar-hidden #content-wrapper {
+    padding-left: 0;
+}
+
+/* add some padding to the top of the main content area without altering bootstrap classes */
+#container-fluid {
+    padding-top: 20px;
+}
+
+/* TOP MENU CLASSES */
+.logo {
+    width: 250px;
+    background-color: black;
+    height: 60px;
+    padding-top: 5px;
+    overflow: hidden;
+    float: left;
+}
+
+.logo img {
+    height: 45px;
+}
+
+.top-menu a {
+    color: #222;
+}
+
+.top-menu a:hover {
+    color: #82C2FA;
+    text-decoration: none;
+}
+
+.top-links {
+    float: left;
+    list-style: none;
+    padding: 2px 0 0 0;
+}
+
+.top-links li {
+    float: left;
+    padding: 20px 10px;
+}
+
+/* SIDE MENU */
+
+.sidebar-nav {
+    padding: 20px 0 0 0;
+    list-style: none;
+    font-size: 1.1em;
+}
+
+.sidebar-nav li {
+    text-indent: 10px;
+    line-height: 44px;
+    width: 250px;
+}
+
+/* icon padding */
+.sidebar-nav li i {
+    padding-right: 7px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.sidebar-nav li a:hover {
+    background-color: #0F2849;
+    color: #fff;
+   
+}
+
+/* sub-menu links */
+.sidebar-nav .panel-body a {
+    color: #87B2ED;
+    font-size: 0.9em;
+}
+
+.sidebar-nav .caret {
+    float: right;
+    margin: 22px 15px 0;
+}
+
+#sidebar-wrapper .box {
+    position: fixed;    /* remove this style if you want the box to float directly below the menu */
+    bottom: 0;          /* remove this style if you want the box to float directly below the menu */
+    border: 1px solid #3E526D;
+    border-radius: 5px;
+    margin: 40px 10px 10px 10px;
+    width: 230px;
+    padding: 10px
+}
+
+#sidebar-wrapper .box h4 {
+    color: #B8C0C9;
+    font-size: 1.1em;
+    margin: 0 0 20px 0;
+}
+
+#sidebar-wrapper .box h5 {
+    color: #87B2ED;
+}
+
+/* SUB MENU */
+
+/* remove bootstrap's default panel styling */
+.sidebar-nav .panel {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
+.sidebar-nav .panel-body {
+    padding: 0;
+    background: black;
+}
+
+.sidebar-nav .panel-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav .panel-body ul > li {
+    text-indent: 48px;
+}
+
+/* RESPONSIVE CLASSES */
+
+/* mobile & tablet */
+@media only screen and (max-width : 992px) {
+    /* sidebar is hidden by default */
+    #sidebar-wrapper {
+        width: 0;
+    }
+
+    /* content is flush-left by default */
+    #content-wrapper {
+        padding-left: 0;
+    }
+
+    /* change the sidebar's width to 250px to expand the sidebar */
+    #wrapper.sidebar-hidden #sidebar-wrapper {
+        width: 250px;
+    }
+
+    /* add padding to main content so it expands left with the sidebar */
+    #wrapper.sidebar-hidden #content-wrapper {
+        padding-left: 250px;
+    }
+
+    .logo {
+        width: 80px;
+        padding: 15px 7px 0 0;
+    }
+
+    .logo img {
+        height: auto;
+    }
+}

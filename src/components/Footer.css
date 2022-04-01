@@ -1,0 +1,15 @@
+.back{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.text-center{
+    font-weight: normal;
+ font-family:  sans-serif;
+ word-spacing: 2px;
+ letter-spacing: 1px;
+}

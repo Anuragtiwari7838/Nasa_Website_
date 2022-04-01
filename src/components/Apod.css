@@ -1,0 +1,36 @@
+.hea{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heas{
+    margin-top: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.background-img{
+    background-color: rgb(194, 186, 186);
+}
+.card-img-top{
+    width: auto;
+    height: 500px;
+}
+.image-size{
+    height: 550px;
+}
+
+.imagesize{
+    height: 40px;
+    
+    width: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-bottom: 25px;
+}
+.con{
+    background-image: url('../image/istockphoto-913693600-612x612.jpg');
+    background-size: 100%;
+}
+.card-body{
+    background-color: rgb(238, 238, 238);
+}

@@ -1,0 +1,24 @@
+.card-img-top{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+.hea{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.imagesize{
+    height: 50px;
+  
+    width: 50px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+   
+}
+.conn{
+    background-image: url(../image/istockphoto-913693600-612x612.jpg);
+    background-size:100%;
+  
+}

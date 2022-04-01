@@ -1,0 +1,13 @@
+
+.App{
+  background-color: rgb(255, 255, 255);
+}
+.title{
+  margin-top:10px ;
+  padding:5px;
+  background-color:rgb(248, 247, 247);
+
+}
+*{
+  letter-spacing: 1px;
+}

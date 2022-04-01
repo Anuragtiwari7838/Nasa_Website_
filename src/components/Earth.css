@@ -1,0 +1,32 @@
+.img{
+    width: 100%;
+    cursor:zoom-in;
+}
+.roww{
+    padding: 10px;
+}
+.sat{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container{
+    padding-bottom: 20px;
+}
+.imagesize{
+    height: 40px;
+    
+    width: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-bottom: 25px;
+}
+.hea{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.con{
+    background-image: url('../image/istockphoto-913693600-612x612.jpg');
+    background-size: 100%;
+}
